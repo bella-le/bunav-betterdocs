@@ -1,11 +1,12 @@
-// Updated version with fixed selectedMoveNum
 import React, { useState, useEffect } from 'react';
-import { PokemonData, Move } from './types';
+import { PokemonData, Move, EvolutionData } from './types';
 import pokemonMovesData from './pokemon_moves.json';
+import pokemonEvolutionsData from './pokemon_evolutions.json';
 
 const App: React.FC = () => {
   // State
   const [pokemonData, setPokemonData] = useState<PokemonData>({});
+  const [evolutionData, setEvolutionData] = useState<EvolutionData>({});
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState<string>('');
@@ -17,6 +18,7 @@ const App: React.FC = () => {
   useEffect(() => {
     try {
       setPokemonData(pokemonMovesData);
+      setEvolutionData(pokemonEvolutionsData as EvolutionData);
       setLoading(false);
     } catch (err) {
       console.error('Error loading data:', err);
@@ -45,6 +47,53 @@ const App: React.FC = () => {
       .catch(err => {
         console.error('Failed to copy text: ', err);
       });
+  };
+
+  // Render Pokemon evolutions
+  const renderEvolutions = () => {
+    if (!currentPokemon || !evolutionData[currentPokemon]) {
+      return null;
+    }
+
+    const evolutions = evolutionData[currentPokemon];
+    
+    if (evolutions.length === 0) {
+      return <p>No evolution data found for this Pokémon</p>;
+    }
+
+    return (
+      <div className="pokemon-evolutions-container">
+        <h3>Evolutions</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Method</th>
+              <th>Evolves To</th>
+              <th>Set Species</th>
+            </tr>
+          </thead>
+          <tbody>
+            {evolutions.map((evolution, index) => {
+              const setSpeciesText = `setSpecies(${selectedSlot}, "${evolution.evolvesTo}")`;
+              
+              return (
+                <tr key={index}>
+                  <td>{evolution.method}</td>
+                  <td>{evolution.evolvesTo}</td>
+                  <td 
+                    className="copy-cell" 
+                    onClick={() => copyToClipboard(setSpeciesText)}
+                    title="Click to copy to clipboard"
+                  >
+                    {setSpeciesText}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    );
   };
 
   // Render Pokemon moves
@@ -148,7 +197,9 @@ const App: React.FC = () => {
               </button>
             ))}
           </div>
+          {renderEvolutions()}
           <div className="pokemon-moves-container">
+            <h3>Moves</h3>
             <table>
               <thead>
                 <tr>

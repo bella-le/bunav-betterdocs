@@ -1,0 +1,472 @@
+{
+  "Psyduck": [
+    {
+      "method": "25",
+      "evolvesTo": "Golduck"
+    }
+  ],
+  "Drowzee": [
+    {
+      "method": "22",
+      "evolvesTo": "Hypno"
+    }
+  ],
+  "Kabuto": [
+    {
+      "method": "38",
+      "evolvesTo": "Kabutops"
+    }
+  ],
+  "Omanyte": [
+    {
+      "method": "38",
+      "evolvesTo": "Omastar"
+    }
+  ],
+  "Lileep": [
+    {
+      "method": "38",
+      "evolvesTo": "Cradily"
+    }
+  ],
+  "Anorith": [
+    {
+      "method": "38",
+      "evolvesTo": "Armaldo"
+    }
+  ],
+  "Riolu": [
+    {
+      "method": "26",
+      "evolvesTo": "Lucario"
+    }
+  ],
+  "Snover": [
+    {
+      "method": "32",
+      "evolvesTo": "Abomasnow"
+    }
+  ],
+  "Pancham": [
+    {
+      "method": "26",
+      "evolvesTo": "Pangoro"
+    }
+  ],
+  "Larvesta": [
+    {
+      "method": "38",
+      "evolvesTo": "Volcarona"
+    }
+  ],
+  "Venonat": [
+    {
+      "method": "21",
+      "evolvesTo": "Venomoth"
+    }
+  ],
+  "Diglett": [
+    {
+      "method": "25",
+      "evolvesTo": "Dugtrio"
+    }
+  ],
+  "Diglett-Alola": [
+    {
+      "method": "25",
+      "evolvesTo": "Dugtrio-Alola"
+    }
+  ],
+  "Meowth": [
+    {
+      "method": "21",
+      "evolvesTo": "Persian"
+    }
+  ],
+  "Meowth-Alola": [
+    {
+      "method": "21",
+      "evolvesTo": "Persian-Alola"
+    }
+  ],
+  "Mankey": [
+    {
+      "method": "25",
+      "evolvesTo": "Primeape"
+    }
+  ],
+  "Poliwag": [
+    {
+      "method": "17",
+      "evolvesTo": "Poliwhirl"
+    }
+  ],
+  "Machop": [
+    {
+      "method": "25",
+      "evolvesTo": "Machoke"
+    }
+  ],
+  "Machoke": [
+    {
+      "method": "38",
+      "evolvesTo": "Machamp"
+    }
+  ],
+  "Graveler": [
+    {
+      "method": "36",
+      "evolvesTo": "Golem"
+    }
+  ],
+  "Ponyta-Galar": [
+    {
+      "method": "30",
+      "evolvesTo": "Rapidash-Galar"
+    }
+  ],
+  "Slowpoke-Galar": [
+    {
+      "method": "35",
+      "evolvesTo": "Slowbro-Galar"
+    },
+    {
+      "method": "Chelle's King's Rock",
+      "evolvesTo": "Slowking-Galar"
+    }
+  ],
+  "Seel": [
+    {
+      "method": "25",
+      "evolvesTo": "Dewgong"
+    }
+  ],
+  "Cubone": [
+    {
+      "method": "25",
+      "evolvesTo": "Marowak"
+    },
+    {
+      "method": "Mirage Tower levelup",
+      "evolvesTo": "Marowak-Alola"
+    }
+  ],
+  "Goldeen": [
+    {
+      "method": "25",
+      "evolvesTo": "Seaking"
+    }
+  ],
+  "Mr. Mime-Galar": [
+    {
+      "method": "42",
+      "evolvesTo": "Mr. Rime"
+    }
+  ],
+  "Munchlax": [
+    {
+      "method": "Learning Heavy Slam",
+      "evolvesTo": "Snorlax"
+    }
+  ],
+  "Spinarak": [
+    {
+      "method": "21",
+      "evolvesTo": "Ariados"
+    }
+  ],
+  "Poliwhirl": [
+    {
+      "method": "Shiny Stone",
+      "evolvesTo": "Politoed"
+    }
+  ],
+  "Sunkern": [
+    {
+      "method": "17",
+      "evolvesTo": "Sunflora"
+    }
+  ],
+  "Eevee": [
+    {
+      "method": "Sun Stone",
+      "evolvesTo": "Espeon"
+    },
+    {
+      "method": "Moon Stone",
+      "evolvesTo": "Umbreon"
+    },
+    {
+      "method": "Shiny Stone",
+      "evolvesTo": "Sylveon"
+    }
+  ],
+  "Slugma": [
+    {
+      "method": "Ancient Power",
+      "evolvesTo": "Magcargo"
+    }
+  ],
+  "Mantyke": [
+    {
+      "method": "Verdanturf Town",
+      "evolvesTo": "Mantine"
+    }
+  ],
+  "Silcoon": [
+    {
+      "method": "10",
+      "evolvesTo": "Beautifly"
+    }
+  ],
+  "Cascoon": [
+    {
+      "method": "10",
+      "evolvesTo": "Dustox"
+    }
+  ],
+  "Wingull": [
+    {
+      "method": "22",
+      "evolvesTo": "Pelipper"
+    }
+  ],
+  "Nincada": [
+    {
+      "method": "20",
+      "evolvesTo": "Ninjask"
+    }
+  ],
+  "Loudred": [
+    {
+      "method": "38",
+      "evolvesTo": "Exploud"
+    }
+  ],
+  "Burmy": [
+    {
+      "method": "20",
+      "evolvesTo": "Wormadam"
+    },
+    {
+      "method": "20",
+      "evolvesTo": "Wormadam-Sandy"
+    },
+    {
+      "method": "20",
+      "evolvesTo": "Wormadam-Trash"
+    }
+  ],
+  "Cherubi": [
+    {
+      "method": "21",
+      "evolvesTo": "Cherrim"
+    }
+  ],
+  "Glameow": [
+    {
+      "method": "Covet",
+      "evolvesTo": "Purugly"
+    }
+  ],
+  "Mime Jr.": [
+    {
+      "method": "22 Name Rater's House",
+      "evolvesTo": "Mr. Mime"
+    },
+    {
+      "method": "22 Icy Granite Cave",
+      "evolvesTo": "Mr. Rime"
+    }
+  ],
+  "Hippopotas": [
+    {
+      "method": "32",
+      "evolvesTo": "Hippowdon"
+    }
+  ],
+  "Dusclops": [
+    {
+      "method": "Mt. Pyre",
+      "evolvesTo": "Dusknoir"
+    }
+  ],
+  "Pansage": [
+    {
+      "method": "Leaf Stone from Brawly",
+      "evolvesTo": "Simisage"
+    }
+  ],
+  "Pansear": [
+    {
+      "method": "Fire Stone from Brawly",
+      "evolvesTo": "Simisear"
+    }
+  ],
+  "Panpour": [
+    {
+      "method": "Water Stone from Brawly",
+      "evolvesTo": "Simipour"
+    }
+  ],
+  "Woobat": [
+    {
+      "method": "22",
+      "evolvesTo": "Swoobat"
+    }
+  ],
+  "Swadloon": [
+    {
+      "method": "26",
+      "evolvesTo": "Leavanny"
+    }
+  ],
+  "Scraggy": [
+    {
+      "method": "32",
+      "evolvesTo": "Scrafty"
+    }
+  ],
+  "Yamask-Galar": [
+    {
+      "method": "34",
+      "evolvesTo": "Runerigus"
+    }
+  ],
+  "Ducklett": [
+    {
+      "method": "32",
+      "evolvesTo": "Swanna"
+    }
+  ],
+  "Vanillite": [
+    {
+      "method": "32",
+      "evolvesTo": "Vanillish"
+    }
+  ],
+  "Vanillish": [
+    {
+      "method": "42",
+      "evolvesTo": "Vanilluxe"
+    }
+  ],
+  "Klink": [
+    {
+      "method": "32",
+      "evolvesTo": "Klang"
+    }
+  ],
+  "Klang": [
+    {
+      "method": "43",
+      "evolvesTo": "Klinklang"
+    }
+  ],
+  "Elgyem": [
+    {
+      "method": "38",
+      "evolvesTo": "Beheeyem"
+    }
+  ],
+  "Cubchoo": [
+    {
+      "method": "32",
+      "evolvesTo": "Beartic"
+    }
+  ],
+  "Pawniard": [
+    {
+      "method": "42",
+      "evolvesTo": "Bisharp"
+    }
+  ],
+  "Rufflet": [
+    {
+      "method": "38",
+      "evolvesTo": "Braviary"
+    },
+    {
+      "method": "Moon Stone",
+      "evolvesTo": "Braviary-Hisui"
+    }
+  ],
+  "Vullaby": [
+    {
+      "method": "40",
+      "evolvesTo": "Mandibuzz"
+    }
+  ],
+  "Skiddo": [
+    {
+      "method": "25",
+      "evolvesTo": "Gogoat"
+    }
+  ],
+  "Spritzee": [
+    {
+      "method": "38",
+      "evolvesTo": "Aromatisse"
+    }
+  ],
+  "Swirlix": [
+    {
+      "method": "38",
+      "evolvesTo": "Slurpuff"
+    }
+  ],
+  "Binacle": [
+    {
+      "method": "32",
+      "evolvesTo": "Barbaracle"
+    }
+  ],
+  "Fomantis": [
+    {
+      "method": "25",
+      "evolvesTo": "Lurantis"
+    }
+  ],
+  "Carkol": [
+    {
+      "method": "32",
+      "evolvesTo": "Coalossal"
+    }
+  ],
+  "Applin": [
+    {
+      "method": "Sun Stone",
+      "evolvesTo": "Flapple"
+    }
+  ],
+  "Silicobra": [
+    {
+      "method": "32",
+      "evolvesTo": "Sandaconda"
+    }
+  ],
+  "Clobbopus": [
+    {
+      "method": "26",
+      "evolvesTo": "Grapploct"
+    }
+  ],
+  "Sinistea": [
+    {
+      "method": "Dusk Stone",
+      "evolvesTo": "Polteageist"
+    }
+  ],
+  "Milcery": [
+    {
+      "method": "Shiny Stone",
+      "evolvesTo": "Alcremie"
+    }
+  ],
+  "Snom": [
+    {
+      "method": "21 Icy Granite Cave",
+      "evolvesTo": "Frosmoth"
+    }
+  ]
+}

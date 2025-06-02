@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: './',
+    publicPath: '/bunav-betterdocs/',
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.json'],
@@ -35,5 +35,11 @@ module.exports = {
     },
     compress: true,
     port: 3000,
+    historyApiFallback: {
+      index: '/bunav-betterdocs/'
+    },
+    devMiddleware: {
+      publicPath: '/bunav-betterdocs/'
+    },
   },
 };
