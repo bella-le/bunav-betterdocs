@@ -1,3 +1,4 @@
+// Updated version with fixed selectedMoveNum
 import React, { useState, useEffect } from 'react';
 import { PokemonData, Move } from './types';
 import pokemonMovesData from './pokemon_moves.json';
