@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Move Database</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Pokémon Move Database</h1>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search for a Pokémon...">
+        <button id="search-button">Search</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="pokemon-list-container">
+      <h2>Pokémon List</h2>
+      <div class="pokemon-list" id="pokemon-list"></div>
+    </div>
+
+    <div class="pokemon-details-container" id="pokemon-details-container">
+      <h2 id="pokemon-name">Select a Pokémon</h2>
+      <div class="pokemon-moves-container">
+        <table id="moves-table">
+          <thead>
+            <tr>
+              <th>Level</th>
+              <th>Move</th>
+            </tr>
+          </thead>
+          <tbody id="moves-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Data converted from Pokémon Run and Bun game</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+:root {
+  --primary-color: #ef5350;
+  --secondary-color: #3d7dca;
+  --light-color: #f5f5f5;
+  --dark-color: #333;
+  --success-color: #66bb6a;
+  --info-color: #29b6f6;
+  --warning-color: #ffa726;
+  --danger-color: #f44336;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1.5rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.slot-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+.slot-selector span {
+  font-weight: 500;
+}
+
+.slot-button {
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.slot-button:hover {
+  background-color: #e0e0e0;
+}
+
+.slot-button.active {
+  background-color: var(--secondary-color);
+  color: white;
+  border-color: var(--secondary-color);
+}
+
+.search-container {
+  display: flex;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.search-container input {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.search-container button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: 500;
+}
+
+.search-container button:hover {
+  background-color: #2c6cb0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.pokemon-list-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.pokemon-list-container h2 {
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.pokemon-list {
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.pokemon-item {
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 5px;
+}
+
+.pokemon-item:hover {
+  background-color: #f0f0f0;
+}
+
+.pokemon-item.active {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.pokemon-details-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.pokemon-details-container h2 {
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.pokemon-moves-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: var(--secondary-color);
+  color: white;
+  font-weight: 500;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.copy-cell {
+  cursor: pointer;
+  color: var(--secondary-color);
+  font-family: monospace;
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.copy-cell:hover {
+  background-color: #e8f4ff;
+  text-decoration: underline;
+}
+
+.copy-cell:active {
+  background-color: #d0e8ff;
+}
+
+footer {
+  background-color: var(--dark-color);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+.error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: var(--danger-color);
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  
+  .pokemon-list {
+    max-height: 300px;
+  }
+}
