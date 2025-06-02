@@ -61,9 +61,6 @@ const App: React.FC = () => {
     // Sort moves by level
     const sortedMoves = [...moves].sort((a, b) => a.level - b.level);
     
-    // For move numbering
-    let moveNum = 1;
-
     return sortedMoves.map((move, index) => {
       const setMoveText = `setMove(${selectedSlot}, ${selectedMoveNum}, "${move.moveName}")`;
       
