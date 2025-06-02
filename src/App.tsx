@@ -65,7 +65,7 @@ const App: React.FC = () => {
     let moveNum = 1;
 
     return sortedMoves.map((move, index) => {
-      const setMoveText = `setMove(${selectedSlot}, ${moveNum++}, "${move.moveName}")`;
+      const setMoveText = `setMove(${selectedSlot}, ${selectedMoveNum}, "${move.moveName}")`;
       
       return (
         <tr key={index}>
